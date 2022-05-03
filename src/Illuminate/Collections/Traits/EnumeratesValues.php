@@ -735,7 +735,7 @@ trait EnumeratesValues
             function ($carry, $pipe) {
                 return $pipe($carry);
             },
-            $this,
+            $this
         );
     }
 
